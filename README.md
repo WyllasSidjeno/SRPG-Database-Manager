@@ -1,3 +1,3 @@
 # SRPG-Manager
  
-An attempt to a SRPG database manager with a client interface.
+SRPG database creator and manager. Eventually, another project will incorporate it to create a user interface, for both server/DMs and clients/players.
