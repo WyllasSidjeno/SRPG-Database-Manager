@@ -1,0 +1,8 @@
+# ninja log v5
+1	120	7097028012431163	SRPG_Database_Manager_autogen/timestamp	4e8951eb6bada83c
+1	120	7097028012431163	SRPG_Database_Manager_autogen/mocs_compilation.cpp	4e8951eb6bada83c
+1	120	7097028012431163	C:/Projects/SRPG-Database-Manager/cmake-build-debug/SRPG_Database_Manager_autogen/timestamp	4e8951eb6bada83c
+1	120	7097028012431163	C:/Projects/SRPG-Database-Manager/cmake-build-debug/SRPG_Database_Manager_autogen/mocs_compilation.cpp	4e8951eb6bada83c
+124	165	7097028013154795	CMakeFiles/SRPG_Database_Manager.dir/SRPG_Database_Manager_autogen/mocs_compilation.cpp.obj	2444c1a2d89929ea
+121	1815	7097028029640514	CMakeFiles/SRPG_Database_Manager.dir/main.cpp.obj	1f7dfcaf83a2d392
+1818	2084	7097028030875793	SRPG_Database_Manager.exe	396138d030734224
