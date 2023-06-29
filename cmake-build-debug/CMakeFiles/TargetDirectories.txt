@@ -1,0 +1,5 @@
+C:/Projects/SRPG-Database-Manager/cmake-build-debug/CMakeFiles/SRPG_Database_Manager.dir
+C:/Projects/SRPG-Database-Manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Projects/SRPG-Database-Manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Projects/SRPG-Database-Manager/cmake-build-debug/CMakeFiles/SRPG_Database_Manager_autogen_timestamp_deps.dir
+C:/Projects/SRPG-Database-Manager/cmake-build-debug/CMakeFiles/SRPG_Database_Manager_autogen.dir
