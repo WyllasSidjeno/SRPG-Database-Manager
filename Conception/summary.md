@@ -22,26 +22,52 @@ Le programme sera composé de deux parties principales :
 ## Étendue
 Le scope de ce projet vise la quasi-totalité des éléments historiques du monde créé.
 
-- Objets Unique (Armes, consummables, armures, objets divers ayant une tendance unique)
+- Système d'objet unique et personnalisable
     - Statistiques
     - Propriétaires
     - Location
     - Histoire
     - Description
     - Materiel
+    - Système d'affixe pour les bonus et stats supplémentaires.
 
-- Personnage
+- Suivi de personnage en profondeur
+    - Feuille de personnage customisable
     - Race
     - Nom
-    - Couleur
-    - Souvenirs
-    - Inventaire
     - Relations
-    - Appartenance
-    - Systeme de valeurs
+    - Physiologie
+    - Souvenirs
+    - Culture
     - Religion
+    - Inventaire et propriété
+    - Bien d'autres ...
 
+- Suivi des situations géopolitiques
+    - Population dynamique
+    - Inventaire et magasins dynamiques
+    - Personnage, lore et location entierement personnalisable.
+    - Evenement interactive ou statique.
+    - Systeme de politique entre Royaumes.
 
+- Outil de gestions de campagnes
+    - Suivi des quêtes
+    - Suivi des présences
+    - Historique des actions
+    - Organisaton des sessions
+    - Tableau de bord interactif
+    - Systeme de Pin.
+    - Systeme de note caché pour le GM.
+    - Map dynamique, si possible
+
+- Systeme de Wiki pour GM et joueur.
+    - Ouvert pour GM, fermé aux connaissances pour le joueur.
+    - Permet de rechercher :
+        - Evenement
+        - Personnage
+        - Souvenir
+        - Objet
+    
 ## Bénéfices voulues
 
 Le programme vise a introduire un soutient au GM, programme annexe, jeu vidéo ou quel que programme de nécesittant un RDBMS de type SRPG ainsi qu'un serveur relié dans l'optique de jeu multijoueur, qu'il s'agisse de roleplay sur table ou bien de jeu réel.
