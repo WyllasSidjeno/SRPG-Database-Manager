@@ -67,6 +67,10 @@ Le scope de ce projet vise la quasi-totalité des éléments historiques du mond
         - Personnage
         - Souvenir
         - Objet
+
+- Systeme de compte sécuritaire
+    - Mot de passe, email/username
+    - Multi-Session
     
 ## Bénéfices voulues
 

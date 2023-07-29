@@ -1,0 +1,209 @@
+<mxfile host="Electron" modified="2023-07-29T21:25:30.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="Zwd3gcRTfMqKPJlChf1R" version="21.3.7" type="device" pages="17">
+  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Fauna and Flora">
+    <mxGraphModel dx="1219" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-10" value="fauna&lt;br&gt;- Homecity / Kingdom&lt;br&gt;- Race&lt;br&gt;- ColorType" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-11" value="body parts" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-13" value="knowledge" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-14" value="skills/abilities" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-16" value="relationships" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-19" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-10" target="FuwoxKfCoaoH1dF27FZJ-11">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="280" y="590" as="sourcePoint" />
+            <mxPoint x="380" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-20" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-10" target="FuwoxKfCoaoH1dF27FZJ-14">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-21" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-10" target="FuwoxKfCoaoH1dF27FZJ-13">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-23" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-10" target="FuwoxKfCoaoH1dF27FZJ-16">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="610" as="sourcePoint" />
+            <mxPoint x="460" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-34" value="flora&lt;br&gt;-colorType&lt;br&gt;-name" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-35" value="organismName" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-37" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-34" target="FuwoxKfCoaoH1dF27FZJ-35">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="150" y="130" as="sourcePoint" />
+            <mxPoint x="240" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FuwoxKfCoaoH1dF27FZJ-38" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERzeroToOne;rounded=0;" edge="1" parent="1" source="FuwoxKfCoaoH1dF27FZJ-10" target="FuwoxKfCoaoH1dF27FZJ-35">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="300" y="120" as="sourcePoint" />
+            <mxPoint x="300" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYgJW-f4jl3mRdlMLQVK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYgJW-f4jl3mRdlMLQVK-1" target="FuwoxKfCoaoH1dF27FZJ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.9999999999998" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="435" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYgJW-f4jl3mRdlMLQVK-1" value="Not sure yet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FqtXNkle8fLRFntHPuw-" name="Items">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EpS0d7p395vVvvnvdbaw-1" value="Item types :&lt;br&gt;Weapon&lt;br&gt;Armor&lt;br&gt;Book&lt;br&gt;Consummable&lt;br&gt;Ressources&lt;br&gt;Misc.&lt;br&gt;Junk" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="130" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Ua8C2rGRwUQwgA7su7pC" name="Items - Books">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0UnTT_HXo4QVYjhY-vfh" name="Chronicles">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XnYAUDGJVzr4sfyfWe4G" name="Cities and Kingdoms">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g3LQ6SJmg8Hzo6xmBfnq" name="Buildings">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fSndSul_Qgl-Ju5PIssL" name="Stores and inventory">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4A7kNaCfDXchZgjHhixp" name="Economy ?">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NJeMko9cospwe93oohBJ" name="Races">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y-5HW6QWVn7Rwwav3IcH" name="Religions">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="bXXfgd9hzYkAHlZUSw4s" name="Affixes">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="STkXh8ub54pDAB7KrST8" name="Skills">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zrKE5MYjeTeRcS6gKhNv" name="Parties">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nd43MsmrO-7KAYZoWoCY" name="Recipee">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QlKtoRDqySnvOUq3h64v" name="Achievement">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V7YJCw7R5GVXlCCotyhq" name="Quests">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yQ7G1uIcaHo5ZjGEifVN" name="Cosmos">
+    <mxGraphModel dx="1767" dy="1187" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
